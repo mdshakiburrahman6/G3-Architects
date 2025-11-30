@@ -53,6 +53,7 @@
 
 
 /* Header styles */
+/* navbar syles */
 .nav{
     padding-top: 50px;
     display: flex;
@@ -73,4 +74,46 @@
     line-height: 28px;
     text-decoration: none;
     color: #424242;
+}
+
+/* Hero styles */
+.hero{
+    text-align: center;
+    margin-top: 115px;
+}
+.hero h1{
+    font-size: 64px;
+    font-weight:bold;
+    text-decoration: none;
+    color: #131313;
+}
+
+
+
+
+/* Responsive */
+@media screen and (max-width:576px) {
+    .max-width{
+        padding: 20px 20px;
+    }
+    .nav{
+
+    }
+    .heading{
+        font-size: 22px;
+        font-weight: bold;
+        color: #131313;
+    }
+    .menus ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .menus ul li a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-decoration: none;
+        color: #424242;
+    }
 }
